@@ -103,6 +103,10 @@ PLATFORMS = [
 UPDATE_INTERVAL = 60
 
 ENDPOINTS = {
+    "Extra-Flamme": {
+        CONF_CUSTOMER_CODE: "195764",
+        CONF_API_URL: "https://extraflame.agua-iot.com",
+    },
     "Alfapalm": {
         CONF_CUSTOMER_CODE: "862148",
         CONF_API_URL: "https://alfaplam.agua-iot.com",
